@@ -1,0 +1,51 @@
+# Design Token 项目 - Git 忽略文件
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置
+.vscode/
+.idea/
+*.sublime-*
+
+# 日志文件
+*.log
+
+# 私密配置
+.env
+.secrets/
+*_secret*
+
+# 构建产物（如果后续使用 Style Dictionary）
+build/
+dist/
+output/
+
+# Node modules（如果使用 npm）
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python（如果使用 Python 工具）
+__pycache__/
+*.py[cod]
+venv/
+
+# 其他工作区文件（非设计系统相关）
+AGENTS.md
+HEARTBEAT.md
+IDENTITY.md
+POLL_PROMPT.md
+USER.md
+design_checklist.md
+improvement_roadmap.md
+mobile_design_system_analysis.md
+ux_accessibility_review.md
+EXECUTIVE_SUMMARY.md
